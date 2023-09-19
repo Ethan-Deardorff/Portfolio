@@ -412,6 +412,19 @@ path {
 
 
 
+/* About Me */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    margin-top: 50px;
+    color: var(--colors-blue-2);
+}
+
+
+
 /* Button CSS */
 .primary-button {
     display: flex;
