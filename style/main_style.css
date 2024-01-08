@@ -528,6 +528,10 @@ footer {
     width: 100%;
   }
 
+  footer {
+    padding: 48px 0px;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
