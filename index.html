@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>Ethan Deardorff</title>
+  <meta name="keywords" content="Portfolio, Front-end, HTML, html, CSS, css, Javascript, javascript, code, programming">
+  <meta name="description"
+    content="Ethan Deardorff's portfolio including all of the front-end projects worked on by him. Contact at ethandeardorff01@gmail.com, text (717) 502-2053, or on social media">
+  <link href="/style/main_style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <!----------------------- Header ----------------------->
+  <header class="w-100" aria-label="Header">
+    <span class="logo" aria-label="Logo">ethandeardorff.com</span>
+    <nav class="large_nav" aria-label="Navigation">
+      <a href="#about" class="tertiary_button" aria-label="About Me">About Me</a>
+      <a href="#projects" class="tertiary_button" aria-label="Projects">Projects</a>
+      <a href="#contact" class="tertiary_button" aria-label="Contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Menu Button" aria-controls="Mobile Navigation">
+      <svg aria-hidden="true" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1H25" stroke="#141418" stroke-width="2" stroke-linecap="round" />
+        <path d="M1 9H25" stroke="#141418" stroke-width="2" stroke-linecap="round" />
+        <path d="M1 17H16" stroke="#141418" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+    <nav class="flex column w-100 small_nav" aria-label="Mobile Navigation" aria-hidden="true">
+      <a class="nav_link" href="#about">
+        About
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+            fill="#141418" />
+        </svg>
+      </a>
+      <a class="nav_link" href="#projects">
+        Projects
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+            fill="#141418" />
+        </svg>
+      </a>
+      <a class="nav_link" href="#contact">
+        Contact
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+            fill="#141418" />
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <div aria-hidden="true" class="bg_blur"></div>
+  <div aria-hidden="true" class="flex align load_screen">
+    <h1 class="styled_title" style="width: fit-content;">Welcome.</h1>
+  </div>
+
+  <!----------------------- Main ----------------------->
+  <main>
+    <section class="hero" id="hero" aria-label="Hero">
+      <h1 class="styled_title" aria-label="Heading">
+        Hello.
+        <br aria-hidden="true">
+        I'm Ethan Deardorff
+      </h1>
+    </section>
+    <section class="flex lg_gap" id="about" aria-label="About">
+      <img class="about_img" src="/assets/IMG_0514.jpg" alt="Portrait" />
+      <div class="about_text flex column sm_gap">
+        <h2 class="fs_title">About Me</h2>
+        <p>
+          I am a self taught <span class="blue">frontend developer</span> with proficiency in <span class="blue">HTML,
+            CSS,</span> and <span class="blue">JavaScript</span>.
+          I grew up in Dover,
+          Pennsylvania and had gained the passion for design at a young age. I would love art class in elementary and
+          was excited when I found the graphic communication classes my high school had to offer. Around sophomore year
+          I would discover UI/UX design and start improving my design skills. I thought that UI/UX was interesting, but
+          I was more interested in actually being able to code and put websites/applications out to the world. So I
+          started to learn how to code, and after many doubtful attempts, I managed to understand it.
+          <br><br>
+          My love for design does not end there though. I had also taken <span class="blue">marketing</span> classes in
+          high school and enjoyed
+          coming up with different brands. Picking out color palettes, Typography, Tone, Graphic styles and everything
+          that went into the personality of a brand was fun for me.
+          <br><br>
+          The combination of these classes that sparked passion in my life are what fuel my creative decisions. I like
+          for every website I design to be personalized for that brand and how they want to have the viewer feel.
+          Without branding, the world of commerce would be boring and bland. So I plan on using my design skills to make
+          the client a <span class="blue">personalized, beautiful,</span> and <span class="blue">useful</span> site that
+          will last for a lifetime.
+        </p>
+      </div>
+    </section>
+    <section class="flex column med_gap" id="projects" aria-label="Projects">
+      <h1 class="styled_title w-100 right">Projects</h1>
+      <hr>
+      <div class="flex column sm_gap">
+      <!-- 
+        <a href="" class="flex align space" target="_blank" aria-label="Project: Aroura Gardens">
+          <div class="project">
+            <h2 class="fs_largetitle">Aroura Gardens</h2>
+            <div class="flex align med_gap">
+              <span class="secondary_button">
+                <p>HTML</p>
+              </span>
+              <span class="secondary_button">
+                <p>CSS</p>
+              </span>
+              <span class="secondary_button">
+                <p>JavaScript</p>
+              </span>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+              fill="#141418" />
+          </svg>
+        </a>
+        <a href="" class="flex align space" target="_blank" aria-label="Project: Fish Tail Bar & Grill">
+          <div class="project">
+            <h2 class="fs_largetitle">Fish Tail Bar & Grill</h2>
+            <div class="flex align med_gap">
+              <span class="secondary_button">
+                <p>HTML</p>
+              </span>
+              <span class="secondary_button">
+                <p>CSS</p>
+              </span>
+              <span class="secondary_button">
+                <p>JavaScript</p>
+              </span>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+              fill="#141418" />
+          </svg>
+        </a> 
+      -->
+        <a href="https://www.thelordsaves.net" class="flex align space" target="_blank"
+          aria-label="Project: The Lord Saves">
+          <div class="project">
+            <h2 class="fs_largetitle">The Lord Saves</h2>
+            <div class="flex align med_gap">
+              <span class="secondary_button">
+                <p>HTML</p>
+              </span>
+              <span class="secondary_button">
+                <p>CSS</p>
+              </span>
+              <span class="secondary_button">
+                <p>JavaScript</p>
+              </span>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+              fill="#141418" />
+          </svg>
+        </a>
+        <a href="https://modern-art.ethandeardorff1.repl.co" class="flex align space" target="_blank"
+          aria-label="Project: Modern Art">
+          <div class="project">
+            <h2 class="fs_largetitle">Modern Art</h2>
+            <div class="flex align med_gap">
+              <span class="secondary_button">
+                <p>HTML</p>
+              </span>
+              <span class="secondary_button">
+                <p>CSS</p>
+              </span>
+              <span class="secondary_button">
+                <p>JavaScript</p>
+              </span>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+              fill="#141418" />
+          </svg>
+        </a>
+      </div>
+    </section>
+    <section class="flex column med_gap" id="contact" aria-label="Contact ">
+      <h1 class="styled_title w-100">Contact Me</h1>
+      <div class="flex space align">
+        <form action="https://formspree.io/f/mleqedjw" method="post" class="flex column lg_gap w-50"
+          aria-label="Contact Form">
+          <input type="email" name="_replyto" placeholder="E-mail" required />
+          <input type="text" name="_subject" placeholder="Subject" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button class="primary_button" type="submit">Send Message</button>
+        </form>
+        <span class="fs_title">Or</span>
+        <div class="flex column lg_gap space">
+          <a class="flex column align sm_gap" href="mailto: ethandeardorff01@gmail.com">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+                fill="#141418" />
+            </svg>
+            <p class="fs_header">Mail</p>
+          </a>
+          <a class="flex column align sm_gap" href="https://www.linkedin.com/in/ethan-deardorff-830681233/">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+                fill="#141418" />
+            </svg>
+            <p class="fs_header">LinkedIn</p>
+          </a>
+          <a class="flex column align sm_gap" href="https://www.instagram.com/ethan_deardorff_/">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+                fill="#141418" />
+            </svg>
+            <p class="fs_header">Instagram</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!----------------------- Footer ----------------------->
+  <footer class="flex column">
+    <h1 class="styled_title w-100 url">ethan<span class="last_name">deardorff.com</span></h1>
+    <div class="flex flex-end hg_gap alig w-100">
+      <div class="flex column sm_gap">
+        <h2 class="fs_title" aria-label="Contact">Contact</h2>
+        <div class="flex med_gap">
+          <a class="tertiary_button" href="mailto: ethandeardorff01@gmail.com">Mail</a>
+          <a class="tertiary_button" href="" target="_blank">LinkedIn</a>
+          <a class="tertiary_button" href="" target="_blank">Instagram</a>
+          <a class="tertiary_button" href="sms: 7175022053">(717) 502-2053</a>
+        </div>
+      </div>
+      <div class="flex column sm_gap">
+        <h2 class="fs_title" aria-label="Projects">Projects</h2>
+        <div class="flex med_gap">
+        <!--
+          <a class="tertiary_button" href="" target="_blank">Aroura Gardens</a>
+          <a class="tertiary_button" href="" target="_blank">Fish Tail Bar & Grill</a>
+        -->
+          <a class="tertiary_button" href="https://www.thelordsaves.net/" target="_blank"> The Lord Saves</a>
+          <a class="tertiary_button" href="https://modern-art.ethandeardorff1.repl.co" target="_blank">Modern Art</a>
+        </div>
+      </div>
+  </footer>
+  <p style="margin-bottom: 24px; color: var(--colors-black-50);">Designed, coded, and managed by Ethan Deardorff</p>
+
+  <!----------------------- Script ----------------------->
+  <script src="/script/main_script.js"></script>
+
+</body>
+
+</html>
