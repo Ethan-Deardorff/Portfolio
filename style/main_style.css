@@ -470,6 +470,10 @@ footer {
     padding: 0px 24px;
   }
 
+  div.langs {
+    gap: 8px;
+  }
+
   .large_nav {
     opacity: 0;
     pointer-events: none;
