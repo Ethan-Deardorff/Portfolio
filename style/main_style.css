@@ -20,14 +20,15 @@
   text-rendering: geometricPrecision;
   text-decoration: none;
   box-sizing: border-box;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   transition: all 150ms ease-out;
 
-  &:focus {
+  &:focus-visible {
     outline: var(--colors-blue-100) solid 3px;
     outline-offset: 2px;
+    position: relative;
+    z-index: 100;
   }
 }
 
@@ -38,10 +39,12 @@ html {
   font: 18px arial, sans-serif;
   background: var(--colors-white);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 main {
@@ -280,7 +283,6 @@ section {
 
 .hero {
   margin-top: 48px;
-  padding: 144px 0px;
 }
 
 .about_img {
