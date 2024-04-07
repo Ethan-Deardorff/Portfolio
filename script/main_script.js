@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // const loadingScreen = document.getElementById("loading_screen");
 
   // function load() {
-    
+
   // }
 
 
-  
+
   const header = document.querySelector('header');
   let lastScrollY = 0;
 
@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   menu.addEventListener('click', () => {
     smallNav.classList.toggle('active');
+    const smallNavHeight = smallNav.scrollHeight;
+    smallNav.style.height = smallNav.classList.contains('active') ? smallNavHeight + 56 + 'px' : '0px';
     html.classList.toggle('no_overflow');
     bgBlur.classList.toggle('active');
 
@@ -52,3 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
     smallNav.setAttribute('aria-expanded', navStatus);
   })
 });
+
+const smallNav = document.querySelector('.small_nav');
+const html = document.querySelector('html');
+const bgBlur = document.querySelector('.bg_blur');
+
+function closeNav() {
+  smallNav.classList.remove('active');
+  smallNav.style.height = '0px'
+  html.classList.remove('no_overflow');
+  bgBlur.classList.remove('active');
+}

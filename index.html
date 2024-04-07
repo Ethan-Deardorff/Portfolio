@@ -30,7 +30,7 @@
       </svg>
     </button>
     <nav class="flex column w-100 small_nav" aria-label="Mobile Navigation" aria-hidden="true">
-      <a class="nav_link" href="#about">
+      <a class="nav_link" href="#about" onclick="closeNav()">
         About
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -38,15 +38,15 @@
             fill="#141418" />
         </svg>
       </a>
-      <a class="nav_link" href="#projects">
+      <span class="nav_link group">
         Projects
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
-            fill="#141418" />
-        </svg>
-      </a>
-      <a class="nav_link" href="#contact">
+        <a class="tertiary_button" href="https://www.thelordsaves.net/" target="_blank">The Lord Saves</a>
+        <a class="tertiary_button" href="https://beautyandbrowsbyrochelle.com" target="_blank">Beauty & Brows by
+          Rochelle</a>
+        <a class="tertiary_button" href="https://dover-skills-usa.github.io/Dover-Skills-USA/" target="_blank">Dover
+          CTC Programs</a>
+      </span>
+      <a class="nav_link" href="#contact" onclick="closeNav()">
         Contact
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -102,50 +102,6 @@
       <h1 class="styled_title w-100 right">Projects</h1>
       <hr>
       <div class="flex column sm_gap">
-      <!-- 
-        <a href="" class="flex align space" target="_blank" aria-label="Project: Aroura Gardens">
-          <div class="project">
-            <h2 class="fs_largetitle">Aroura Gardens</h2>
-            <div class="flex align med_gap">
-              <span class="secondary_button">
-                <p>HTML</p>
-              </span>
-              <span class="secondary_button">
-                <p>CSS</p>
-              </span>
-              <span class="secondary_button">
-                <p>JavaScript</p>
-              </span>
-            </div>
-          </div>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
-              fill="#141418" />
-          </svg>
-        </a>
-        <a href="" class="flex align space" target="_blank" aria-label="Project: Fish Tail Bar & Grill">
-          <div class="project">
-            <h2 class="fs_largetitle">Fish Tail Bar & Grill</h2>
-            <div class="flex align med_gap">
-              <span class="secondary_button">
-                <p>HTML</p>
-              </span>
-              <span class="secondary_button">
-                <p>CSS</p>
-              </span>
-              <span class="secondary_button">
-                <p>JavaScript</p>
-              </span>
-            </div>
-          </div>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
-              fill="#141418" />
-          </svg>
-        </a> 
-      -->
         <a href="https://www.thelordsaves.net" class="flex align space" target="_blank"
           aria-label="Project: The Lord Saves">
           <div class="project">
@@ -172,6 +128,28 @@
           aria-label="Project: Beauty & Brows">
           <div class="project">
             <h2 class="fs_largetitle">Beauty & Brows</h2>
+            <div class="flex align med_gap langs">
+              <span class="secondary_button">
+                <p>HTML</p>
+              </span>
+              <span class="secondary_button">
+                <p>CSS</p>
+              </span>
+              <span class="secondary_button">
+                <p>JavaScript</p>
+              </span>
+            </div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24 17.7118V2.32939C24 0.945668 23.0779 0.00012207 21.6637 0.00012207H6.27859C4.96447 0.00012207 3.98848 0.991792 3.98848 2.18333C3.98848 3.36718 5.00289 4.29735 6.25553 4.29735H11.9501L17.0144 4.10517L14.3247 6.49595L0.745439 20.1026C0.276657 20.5869 0 21.1557 0 21.7477C0 22.9085 1.07589 24.0001 2.25168 24.0001C2.8511 24.0001 3.41211 23.7388 3.89627 23.2543L17.4986 9.67083L19.904 6.97256L19.6964 11.8771V17.7349C19.6964 18.9957 20.6187 20.0103 21.8098 20.0103C23.0086 20.0103 24 18.9957 24 17.7118Z"
+              fill="#141418" />
+          </svg>
+        </a>
+        <a href="https://dover-skills-usa.github.io/Dover-Skills-USA/" class="flex align space" target="_blank"
+          aria-label="Project: Dover CTC Programs">
+          <div class="project">
+            <h2 class="fs_largetitle">Dover CTC Programs</h2>
             <div class="flex align med_gap langs">
               <span class="secondary_button">
                 <p>HTML</p>
@@ -241,20 +219,20 @@
         <h2 class="fs_title" aria-label="Contact">Contact</h2>
         <div class="flex med_gap">
           <a class="tertiary_button" href="mailto: ethandeardorff01@gmail.com">Mail</a>
-          <a class="tertiary_button" href="" target="_blank">LinkedIn</a>
-          <a class="tertiary_button" href="" target="_blank">Instagram</a>
+          <a class="tertiary_button" href="https://www.linkedin.com/in/ethan-deardorff-830681233/"
+            target="_blank">LinkedIn</a>
+          <a class="tertiary_button" href="https://www.instagram.com/ethan_deardorff_/" target="_blank">Instagram</a>
           <a class="tertiary_button" href="sms: 7175022053">(717) 502-2053</a>
         </div>
       </div>
       <div class="flex column sm_gap">
         <h2 class="fs_title" aria-label="Projects">Projects</h2>
         <div class="flex med_gap">
-        <!--
-          <a class="tertiary_button" href="" target="_blank">Aroura Gardens</a>
-          <a class="tertiary_button" href="" target="_blank">Fish Tail Bar & Grill</a>
-        -->
-          <a class="tertiary_button" href="https://www.thelordsaves.net/" target="_blank"> The Lord Saves</a>
-          <a class="tertiary_button" href="https://modern-art.ethandeardorff1.repl.co" target="_blank">Modern Art</a>
+          <a class="tertiary_button" href="https://www.thelordsaves.net/" target="_blank">The Lord Saves</a>
+          <a class="tertiary_button" href="https://beautyandbrowsbyrochelle.com" target="_blank">Beauty & Brows by
+            Rochelle</a>
+          <a class="tertiary_button" href="https://dover-skills-usa.github.io/Dover-Skills-USA/" target="_blank">Dover
+            CTC Programs</a>
         </div>
       </div>
   </footer>

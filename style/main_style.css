@@ -183,6 +183,7 @@ hr {
 
 .no_overflow {
   overflow: hidden;
+  touch-action: none;
 }
 
 
@@ -257,6 +258,16 @@ nav.large_nav {
   font-size: var(--font-size-largetitle);
   transition: all 300ms ease-in-out;
   transition-delay: 150ms;
+
+  &.group {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &>a {
+      font-size: 1rem;
+      color: var(--colors-black-50);
+    }
+  }
 }
 
 .bg_blur {
@@ -343,6 +354,7 @@ form {
   & button {
     width: fit-content;
     font-size: var(--font-size-body);
+    font-weight: normal;
   }
 }
 
@@ -537,6 +549,14 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
+  .secondary_button {
+    border-radius: 100px;
+
+    &>p {
+      font-size: 0.777rem;
+    }
+  }
 
   .hero {
     padding: 72px 0px;
