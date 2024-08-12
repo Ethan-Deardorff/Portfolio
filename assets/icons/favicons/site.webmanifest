@@ -1,0 +1,20 @@
+{
+    "name": "ethandeardorff.com",
+    "short_name": "ethandeardorff.com",
+    "icons": [
+        {
+            "src": "/assets/icons/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/favicons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://www.ethandeardorff.com",
+    "display": "standalone"
+}
