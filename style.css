@@ -225,7 +225,6 @@ strong {
     gap: var(--padding-small);
     padding: var(--padding-small);
     border-radius: 2rem;
-    height: 100%;
 
     transition: border-color 0.1s ease-in-out;
     -webkit-transition: border-color 0.1s ease-in-out;
@@ -1066,7 +1065,7 @@ footer {
         &>div.layout {
             display: flex;
             flex-direction: column;
-            gap: var(--padding-xsmall);
+            gap: var(--padding-medium);
         }
     }
 
